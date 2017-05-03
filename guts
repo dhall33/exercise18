@@ -14,11 +14,11 @@ public class exercise18 {
 
         while(true)
         {
-            System.out.println("Please enter a number (enter a non-Integer to end)");
+            System.out.println("Please enter a number (enter a non-Integer to end)");  //prompt
             try{
                 Integer x = input.nextInt();
                 array.add(x);
-                if (x>=0 && x<=50) {
+                if (x>=0 && x<=50) { //conditions
                     intcount++;
                 }
             }
@@ -29,6 +29,6 @@ public class exercise18 {
 
         System.out.println();
         System.out.format("The numbers you entered were: %s\n", array);
-        System.out.format("The intcount of in-range numbers was: %d\n", intcount);
+        System.out.format("The intcount of in-range numbers was: %d\n", intcount); //output
     }
 }
